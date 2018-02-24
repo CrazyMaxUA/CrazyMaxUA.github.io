@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML|CSS Homework - Maksym Abashkin</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		div{
+			font-family: 'Open Sans', sans-serif;
+		}
+		h1{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 22px;
+			font-weight: bold;
+			color: #ffffff;
+			text-align: center;
+		}
+		img{
+			margin: 10px 10px 20px;
+			border-radius: 40px;
+			border: 2px solid #d3d3d3;
+		}
+		p{
+			font-weight: bold;
+			font-size: 16px;
+			text-decoration: underline;
+		}
+		a{
+			color: #36b1ff;
+		}
+		#main{
+			width: 615px;
+			border: 3px solid #d3d3d3;
+		}
+		#FirstRow{
+			padding: 10px;
+			width: 595px;
+			color: #ffffff;
+			background-color: #3d4f5b;
+		}
+		#LColumn{
+			height: 470px;
+			width: 150px;
+			padding: 5px;
+			float: left;
+			color: #ffffff;
+			text-align: center;
+			background: linear-gradient(to right, #424242, #6f6f6f)
+		}
+		.LabelSize{
+			margin: 5px 0px;
+			border-radius: 5px;
+			font-size: 10px;
+		}
+		#SourCream{
+			width: 100px;
+			background-color: #ffa500;
+		}
+		#Milk{
+			width: 77px;
+			background-color: #0174df;
+		}
+		#Beer{
+			width: 140px;
+			background-color: #008000;
+		}
+		.LCLine{
+			margin: 10px;
+			border-width: 2px;
+			border-bottom-style: solid;
+			border-color: #ffff00;
+		}
+		.LCText{
+			margin: 5px 0px 5px;
+			text-align: left;
+			font-size: 27px;
+		}
+		.LClist{
+				text-align: left;
+				color: #ffffff;
+		}
+		#RColumn{
+			height: 460px;
+			width: 435px;
+			float: left;
+			font-size: 16px;
+			color: #084b8a;
+			background-color: #ffffff;
+		}
+		.RCLine{
+			margin: 10px;
+			padding: 0px 0px 10px;
+			border-width: 2px;
+			border-bottom-style: solid;
+			border-color: #0080ff;
+		}
+		.RCText{
+			margin: 5px 0px 5px;
+			font-weight: bold;
+		}
+		.RClist{
+				margin: 0px;
+				padding-left: 0px;
+				list-style-type: none;
+		}
+		.MrPropper{
+			clear: left;
+		}
+
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="FirstRow"><h1>Curriculum vitae</h1></div>
+	
+	<div id="LColumn">
+		<img src="1.jpg">
+		<div class="LCLine">
+			<div class="LCText">Котофей</div>
+			<div class="LCText">Котофеич</div>
+		</div>
+		<p>Люблю:</p>
+		<div id="SourCream" class="LabelSize"><span>Сметанку</span></div>
+		<div id="Milk" class="LabelSize"><span>Молочко</span></div>
+		<div id="Beer" class="LabelSize"><span>Пивасик</span></div>
+		<p>Контакты</p>
+		<div>
+			<ul class="LClist">
+				<li><a href="https://www.google.com.ua/search?q=vkontakte&oq=vko&aqs=chrome.1.69i57j0l5.1635j0j7&sourceid=chrome&ie=UTF-8"  target="_blank">VK</a></li>
+				<li><a href="https://www.google.com.ua/search?ei=0qyRWvX8KsSRsgG3go2QCw&q=odnoklassniki&oq=odn&gs_l=psy-ab.3.0.35i39k1j0i67k1j0i131k1j0l7.3908.3908.0.5672.1.1.0.0.0.0.65.65.1.1.0....0...1c.1.64.psy-ab..0.1.65....0.fYLn44j65VQ"  target="_blank">Ok</a></li>
+				<li><a href="http://www.fb.com" target="_blank">Facebook</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="RColumn">
+			<div class="RCLine">
+				<div class="RCText">Дата рождения:</div>
+				<div>1 января 2000г</div>
+				<div class="RCText">Место рождения:</div>
+				<div>теплая печка</div>
+			</div>
+	
+			<div class="RCLine">
+				<div class="RCText">Soft skills:</div>
+				<div>
+					<ul class="RClist">
+						<li>- Photoshop</li>
+						<li>- Word</li>
+						<li>- Paint</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="RCLine">
+				<div class="RCText">Обо мне:</div>
+				<div>
+					<ul class="RClist">
+						<li>- не курю</li>
+						<li>- пью</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	
+	<div class="MrPropper"></div>
+</div>
+
+</body>
+</html>
